@@ -12,7 +12,6 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
-//https://www.hackerrank.com/challenges/balanced-brackets/problem
 class Solution
 {
     const string YES = "YES";
@@ -70,7 +69,7 @@ class Solution
 
     static void Main(string[] args)
     {
-        TextWriter textWriter = new StreamWriter(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\result", false);
+        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int t = Convert.ToInt32(Console.ReadLine());
 
