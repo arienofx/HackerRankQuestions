@@ -92,26 +92,6 @@ namespace SwapNodesAlgo
 			}
 
             return result;
-
-            /*
-11
-2 3
-4 -1
-5 -1
-6 -1
-7 8
--1 9
--1 -1
-10 11
--1 -1
--1 -1
--1 -1
-2
-2
-4
-
-             */
-            //return new int[][]{ new int[] { 2, 9, 6, 4, 1, 3, 7, 5, 11, 8, 10 }, new int[] { 2, 6, 9, 4, 1, 3, 7, 5, 10, 8, 11 } };
         }
 
         static void Main(string[] args)
