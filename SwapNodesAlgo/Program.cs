@@ -6,7 +6,6 @@ using System.Reflection;
 
 namespace SwapNodesAlgo
 {
-	//https://www.hackerrank.com/challenges/swap-nodes-algo/problem
 	class Solution
     {
         class Node
@@ -96,7 +95,7 @@ namespace SwapNodesAlgo
 
         static void Main(string[] args)
         {
-            TextWriter textWriter = new StreamWriter(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\result", false);
+            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
             int n = Convert.ToInt32(Console.ReadLine());
 
